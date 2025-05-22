@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Elden Ring",
+    "description": "Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+    "tags": ["Souls-like", "Open-World"],
+    "price": "40$",
+    "image": "src/assets/img/1291883.png"
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "description": "Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.",
+    "tags": ["RPG", "Sci-fi"],
+    "price": "30$",
+    "image": "src/assets/img/cyberpunk-2077-3840x2160-20154.jpg"
+  },
+  {
+    "title": "Lies of P",
+    "description": "Lies of P is a souls-like action RPG inspired by the tale of Pinocchio, set in a Belle Époque world filled with dark secrets.",
+    "tags": ["RPG", "Fantasy"],
+    "price": "25$",
+    "image": "src/assets/img/lies-of-p-overture-3840x2160-21663.jpg"
+  }
+]
