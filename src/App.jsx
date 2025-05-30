@@ -3,11 +3,14 @@ import { useState, useEffect } from 'react'
 import './assets/css/App.css'
 import './assets/css/Library.css'
 import './assets/css/Store.css'
+import './assets/css/News.css'
 import HomePage from './pages/HomePage'
 import LibraryPage from './pages/LibraryPage'
 import Header from './assets/component/Header'
 import Footer from './assets/component/Footer'
 import GameStorePage from './pages/GameStorePage'
+import NewsPage from './pages/NewsPage'
+import NewsDetailPage from './pages/NewsDetailPage'
 
 function App() {
   // Ambil data awal dari localStorage (parse JSON-nya), kalau gak ada pakai array kosong
@@ -43,6 +46,8 @@ function App() {
           <Route path="/" element={<HomePage addToLibrary={addToLibrary}/>} />
           <Route path="/library" element={<LibraryPage gamesLibrary={libraryGames}/>} />
           <Route path="/game-store" element={<GameStorePage/>} />
+          <Route path="/news" element={<NewsPage/>} />
+          <Route path="/news/:id" element={<NewsDetailPage/>} />
         </Routes>
          
       </Router>

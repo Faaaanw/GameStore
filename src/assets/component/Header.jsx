@@ -7,7 +7,7 @@ export default function Header() {
         <div className="header-page">
           <p><Link to="/">Home</Link></p>
           <p><Link to="/library">Library</Link></p>
-          <p><Link to="/game-store">Game Store</Link></p>
+          <p><Link to="/game-store">Browse</Link></p>
           <p><Link to="/news">News</Link></p>
         </div>
         <div className="header-page-right">
